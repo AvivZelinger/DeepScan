@@ -136,7 +136,7 @@ def extract_aggregated_features(stats):
     numeric_vals = []
     for s in stats:
         try:
-            if s['field_type'] in ['int', 'float']:
+            if s['field_type'] in ['int', 'float', 'double', 'long']:
                 numeric_vals.append(float(s['value']))
             else:
                 numeric_vals.append(0.0)

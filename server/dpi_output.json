@@ -56,8 +56,8 @@
                 "is_dynamic_array": false,
                 "min_size": 8.0,
                 "max_size": 8.0,
-                "min_value": 0.0,
-                "max_value": 0.0,
+                "min_value": 955.8477944085935,
+                "max_value": 1047.2785539444662,
                 "size_defining_field": null,
                 "field_type": "double",
                 "bitfields_count": null
@@ -158,8 +158,8 @@
                 "is_dynamic_array": false,
                 "min_size": 8.0,
                 "max_size": 8.0,
-                "min_value": 0.0,
-                "max_value": 0.0,
+                "min_value": 955.4994466816404,
+                "max_value": 1047.2338824804947,
                 "size_defining_field": null,
                 "field_type": "double",
                 "bitfields_count": null
@@ -260,8 +260,8 @@
                 "is_dynamic_array": false,
                 "min_size": 8.0,
                 "max_size": 8.0,
-                "min_value": 0.0,
-                "max_value": 0.0,
+                "min_value": 950.4164978208893,
+                "max_value": 1042.9750098343043,
                 "size_defining_field": null,
                 "field_type": "double",
                 "bitfields_count": null
@@ -362,8 +362,8 @@
                 "is_dynamic_array": false,
                 "min_size": 8.0,
                 "max_size": 8.0,
-                "min_value": 0.0,
-                "max_value": 0.0,
+                "min_value": 951.2079526098555,
+                "max_value": 1049.1848915768699,
                 "size_defining_field": null,
                 "field_type": "double",
                 "bitfields_count": null
