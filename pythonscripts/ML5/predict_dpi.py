@@ -11,6 +11,7 @@ from scapy.all import rdpcap, UDP, IP
 from tensorflow.keras import models
 import tensorflow as tf
 import joblib
+# import catan
 
 ##########################################
 # MySQL database connection settings
@@ -99,6 +100,10 @@ def parse_pcap_with_ip(pcap_file, protocol_df):
                             value = field_bytes.decode('utf-8', errors='ignore').strip('\x00')
                         elif field_type == 'bool':
                             value = bool(int.from_bytes(field_bytes, byteorder='big'))
+                        elif field_type == 'double':
+                            value = struct.unpack('!d', field_bytes)[0]
+                        elif field_type == 'long':
+                            value = int.from_bytes(field_bytes, byteorder='big')
                         else:
                             value = field_bytes.hex()
 
@@ -179,13 +184,13 @@ def generate_dpi(endpoints):
     custom_objects = {'mse': tf.keras.losses.MeanSquaredError()}
     
     # Load the models.
-    dpi_model_is_dynamic = models.load_model('dpi_model_is_dynamic_array.h5')
-    dpi_model_min_size = models.load_model('dpi_model_min_size.h5', custom_objects=custom_objects)
-    dpi_model_max_size = models.load_model('dpi_model_max_size.h5', custom_objects=custom_objects)
-    dpi_model_min_value = models.load_model('dpi_model_min_value.h5', custom_objects=custom_objects)
-    dpi_model_max_value = models.load_model('dpi_model_max_value.h5', custom_objects=custom_objects)
-    dpi_model_field_type = models.load_model('dpi_model_field_type.h5')
-    le_field_type = joblib.load('dpi_label_encoder_field_type.joblib')
+    dpi_model_is_dynamic = models.load_model('/mnt/c/Users/aviv/Desktop/newProject/pythonscripts/ML5/dpi_model_is_dynamic_array.h5', custom_objects=custom_objects) 
+    dpi_model_min_size = models.load_model('/mnt/c/Users/aviv/Desktop/newProject/pythonscripts/ML5/dpi_model_min_size.h5', custom_objects=custom_objects)
+    dpi_model_max_size = models.load_model('/mnt/c/Users/aviv/Desktop/newProject/pythonscripts/ML5/dpi_model_max_size.h5', custom_objects=custom_objects)
+    dpi_model_min_value = models.load_model('/mnt/c/Users/aviv/Desktop/newProject/pythonscripts/ML5/dpi_model_min_value.h5', custom_objects=custom_objects)
+    dpi_model_max_value = models.load_model('/mnt/c/Users/aviv/Desktop/newProject/pythonscripts/ML5/dpi_model_max_value.h5', custom_objects=custom_objects)
+    dpi_model_field_type = models.load_model('/mnt/c/Users/aviv/Desktop/newProject/pythonscripts/ML5/dpi_model_field_type.h5')
+    le_field_type = joblib.load('/mnt/c/Users/aviv/Desktop/newProject/pythonscripts/ML5/dpi_label_encoder_field_type.joblib')
 
     dpi_result = {}
     for endpoint_ip, packets in endpoints.items():

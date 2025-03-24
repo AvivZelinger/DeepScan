@@ -89,4 +89,4 @@ def generate_bpcap(file_name, num_packets=100):
     print(f"PCAP file '{file_name}' created with {num_packets} packets from addresses: {ENDPOINTS}")
 
 if __name__ == '__main__':
-    generate_bpcap("trainqprotocol.pcap", num_packets=100000)
+    generate_bpcap("test_24_3.pcap", num_packets=100)

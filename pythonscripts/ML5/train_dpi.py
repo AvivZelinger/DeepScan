@@ -99,6 +99,8 @@ def parse_pcap_with_ip(pcap_file, protocol_df):
                             value = field_bytes.decode('utf-8', errors='ignore').strip('\x00')
                         elif field_type == 'bool':
                             value = bool(int.from_bytes(field_bytes, byteorder='big'))
+                        elif field_type == 'double':
+                            value = struct.unpack('!d', field_bytes)[0]
                         else:
                             value = field_bytes.hex()
 

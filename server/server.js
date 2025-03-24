@@ -152,7 +152,7 @@ app.post('/data', async (req, res) => {
     console.log('Python ML script finished');
 
     await new Promise((resolve, reject) => {
-      exec('/usr/bin/python3 /mnt/c/Users/aviv/Desktop/newProject/pythonscripts/gen_diss.py', (error) => {
+      exec('/usr/bin/python3 /mnt/c/Users/aviv/Desktop/newProject/pythonscripts/gen_diss2.py', (error) => {
         if (error) reject(error);
         else {
           console.log('generated dissector files');

@@ -1,2 +1,11 @@
-1
+10
+header 4 char
+version 4 int
+flags1 1 bitfield
+flags2 1 bitfield
+temperature 4 float
+pressure 8 double
+device_id 10 char
+message_length 4 int
+message 0 char message_length
 checksum 4 int
