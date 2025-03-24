@@ -1,0 +1,413 @@
+{
+    "protocol": "ddd2",
+    "dpi": {
+        "192.168.50.2": {
+            "header": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "version": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 1,
+                "max_value": 5,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "flags1": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 1,
+                "max_value": 6,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": 4
+            },
+            "flags2": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 1,
+                "max_value": 7,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": 4
+            },
+            "temperature": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": -49.48067855834961,
+                "max_value": 142.6398468017578,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "pressure": {
+                "is_dynamic_array": false,
+                "min_size": 8,
+                "max_size": 8,
+                "min_value": 958.3918332682082,
+                "max_value": 1049.783146110744,
+                "size_defining_field": null,
+                "field_type": "double",
+                "bitfields_count": null
+            },
+            "device_id": {
+                "is_dynamic_array": false,
+                "min_size": 10,
+                "max_size": 10,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "message_length": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 5,
+                "max_value": 20,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "message": {
+                "is_dynamic_array": true,
+                "min_size": 5,
+                "max_size": 20,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": "message_length",
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "checksum": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 170559973,
+                "max_value": 3857783110,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            }
+        },
+        "192.168.50.1": {
+            "header": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "version": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 1,
+                "max_value": 5,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "flags1": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 1,
+                "max_value": 7,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": 4
+            },
+            "flags2": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 1,
+                "max_value": 7,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": 4
+            },
+            "temperature": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": -48.50895690917969,
+                "max_value": 139.04006958007812,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "pressure": {
+                "is_dynamic_array": false,
+                "min_size": 8,
+                "max_size": 8,
+                "min_value": 950.2026333073488,
+                "max_value": 1044.5640405860781,
+                "size_defining_field": null,
+                "field_type": "double",
+                "bitfields_count": null
+            },
+            "device_id": {
+                "is_dynamic_array": false,
+                "min_size": 10,
+                "max_size": 10,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "message_length": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 6,
+                "max_value": 20,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "message": {
+                "is_dynamic_array": true,
+                "min_size": 6,
+                "max_size": 20,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": "message_length",
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "checksum": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 276530363,
+                "max_value": 4109898148,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            }
+        },
+        "192.168.50.3": {
+            "header": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "version": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 1,
+                "max_value": 5,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "flags1": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 0,
+                "max_value": 8,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": 4
+            },
+            "flags2": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 1,
+                "max_value": 6,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": 4
+            },
+            "temperature": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": -48.995418548583984,
+                "max_value": 143.9222412109375,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "pressure": {
+                "is_dynamic_array": false,
+                "min_size": 8,
+                "max_size": 8,
+                "min_value": 953.6410234848564,
+                "max_value": 1042.5321609500534,
+                "size_defining_field": null,
+                "field_type": "double",
+                "bitfields_count": null
+            },
+            "device_id": {
+                "is_dynamic_array": false,
+                "min_size": 10,
+                "max_size": 10,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "message_length": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 5,
+                "max_value": 20,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "message": {
+                "is_dynamic_array": true,
+                "min_size": 5,
+                "max_size": 20,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": "message_length",
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "checksum": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 379480904,
+                "max_value": 3769158108,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            }
+        },
+        "192.168.50.4": {
+            "header": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "version": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 1,
+                "max_value": 5,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "flags1": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 2,
+                "max_value": 6,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": 4
+            },
+            "flags2": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 2,
+                "max_value": 8,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": 4
+            },
+            "temperature": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": -46.43162155151367,
+                "max_value": 146.9832763671875,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "pressure": {
+                "is_dynamic_array": false,
+                "min_size": 8,
+                "max_size": 8,
+                "min_value": 951.9505708835414,
+                "max_value": 1048.1364074098979,
+                "size_defining_field": null,
+                "field_type": "double",
+                "bitfields_count": null
+            },
+            "device_id": {
+                "is_dynamic_array": false,
+                "min_size": 10,
+                "max_size": 10,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "message_length": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 6,
+                "max_value": 20,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "message": {
+                "is_dynamic_array": true,
+                "min_size": 6,
+                "max_size": 20,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": "message_length",
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "checksum": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 122176905,
+                "max_value": 4099986661,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            }
+        }
+    }
+}

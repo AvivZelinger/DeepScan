@@ -1,0 +1,465 @@
+{
+    "protocol": "test2",
+    "dpi": {
+        "192.168.5.30": {
+            "signature": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "version": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 1,
+                "max_value": 3,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "flags": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 0,
+                "max_value": 3,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": 1
+            },
+            "command": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "session_id": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 1051,
+                "max_value": 8741,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "msg_id": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 1622,
+                "max_value": 9359,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "timestamp": {
+                "is_dynamic_array": false,
+                "min_size": 8,
+                "max_size": 8,
+                "min_value": 1740855245392,
+                "max_value": 1740855245408,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "payload_size": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 6,
+                "max_value": 12,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "message": {
+                "is_dynamic_array": true,
+                "min_size": 6,
+                "max_size": 12,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": "payload_size",
+                "field_type": "char",
+                "bitfields_count": null
+            }
+        },
+        "192.168.5.10": {
+            "signature": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "version": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 1,
+                "max_value": 3,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "flags": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 1,
+                "max_value": 2,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": 1
+            },
+            "command": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "session_id": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 4715,
+                "max_value": 8967,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "msg_id": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 1790,
+                "max_value": 8423,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "timestamp": {
+                "is_dynamic_array": false,
+                "min_size": 8,
+                "max_size": 8,
+                "min_value": 1740855245393,
+                "max_value": 1740855245407,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "payload_size": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 7,
+                "max_value": 13,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "message": {
+                "is_dynamic_array": true,
+                "min_size": 7,
+                "max_size": 13,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": "payload_size",
+                "field_type": "char",
+                "bitfields_count": null
+            }
+        },
+        "192.168.5.20": {
+            "signature": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "version": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 1,
+                "max_value": 2,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "flags": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 0,
+                "max_value": 3,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": 1
+            },
+            "command": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "session_id": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 1685,
+                "max_value": 9451,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "msg_id": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 5292,
+                "max_value": 8967,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "timestamp": {
+                "is_dynamic_array": false,
+                "min_size": 8,
+                "max_size": 8,
+                "min_value": 1740855245394,
+                "max_value": 1740855245404,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "payload_size": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 8,
+                "max_value": 10,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "message": {
+                "is_dynamic_array": true,
+                "min_size": 8,
+                "max_size": 10,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": "payload_size",
+                "field_type": "char",
+                "bitfields_count": null
+            }
+        },
+        "192.168.5.40": {
+            "signature": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "version": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 1,
+                "max_value": 2,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "flags": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 1,
+                "max_value": 1,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": 1
+            },
+            "command": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "session_id": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 8301,
+                "max_value": 8457,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "msg_id": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 4879,
+                "max_value": 5682,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "timestamp": {
+                "is_dynamic_array": false,
+                "min_size": 8,
+                "max_size": 8,
+                "min_value": 1740855245394,
+                "max_value": 1740855245409,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "payload_size": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 7,
+                "max_value": 13,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "message": {
+                "is_dynamic_array": true,
+                "min_size": 7,
+                "max_size": 13,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": "payload_size",
+                "field_type": "char",
+                "bitfields_count": null
+            }
+        },
+        "192.168.5.50": {
+            "signature": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "version": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 1,
+                "max_value": 3,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "flags": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": 1,
+                "max_value": 2,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": 2
+            },
+            "command": {
+                "is_dynamic_array": false,
+                "min_size": 1,
+                "max_size": 1,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": null,
+                "field_type": "char",
+                "bitfields_count": null
+            },
+            "session_id": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 1142,
+                "max_value": 6757,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "msg_id": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 3377,
+                "max_value": 9657,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "timestamp": {
+                "is_dynamic_array": false,
+                "min_size": 8,
+                "max_size": 8,
+                "min_value": 1740855245395,
+                "max_value": 1740855245410,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "payload_size": {
+                "is_dynamic_array": false,
+                "min_size": 4,
+                "max_size": 4,
+                "min_value": 6,
+                "max_value": 13,
+                "size_defining_field": null,
+                "field_type": "int",
+                "bitfields_count": null
+            },
+            "message": {
+                "is_dynamic_array": true,
+                "min_size": 6,
+                "max_size": 13,
+                "min_value": null,
+                "max_value": null,
+                "size_defining_field": "payload_size",
+                "field_type": "char",
+                "bitfields_count": null
+            }
+        }
+    }
+}
